@@ -3,6 +3,16 @@ v2.0 | 20110126
 License: none (public domain)
 */
 
+
+
+
+
+
+
+
+
+
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
 address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,
 tt,var,b, u, i, center,
@@ -43,4 +53,59 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1,h3,h4,h5, p{margin-bottom: 25px;}
+
+/*button*/
+
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+/*home page*/
+.hero {
+  padding: 22px 80px 66px 220px;
+}
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
 
